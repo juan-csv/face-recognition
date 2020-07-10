@@ -32,7 +32,10 @@ def load_images_to_database():
             continue
         else:
             # inserto las nuevas caracteristicas en la base de datos
-            name.append(file_name.split(".")[0])
+            new_name = file_name.split(".")[0]
+            if new_name == "":
+                continue
+            name.append(new_name)
             if len(Feats)==0:
                 Feats = np.frombuffer(feat[0], dtype=np.float64)
             else:

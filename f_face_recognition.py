@@ -40,7 +40,7 @@ def compare_faces(face_encodings,db_features,db_names):
         except:
             dist = face_recognition.face_distance([Feats_temp],face_encoding)
         index = np.argmin(dist)
-        if dist[index] <= 0.6:
+        if dist[index] <= 0.7:
             match_name = match_name + [names_temp[index]]
         else:
             match_name = match_name + ["unknow"]

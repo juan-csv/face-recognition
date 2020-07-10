@@ -12,6 +12,8 @@ and go to http://localhost:8080/
 
 If you want you can use only the facial recognition function
 
+<pre><code>python f_main.py --path_im data_test/juan.jpg</code></pre>
+
 ![alt text](https://github.com/mevo12318/face-recognition/blob/master/results/recognition.jpg)
 
 # References

@@ -1,5 +1,5 @@
 # face recognition
-this is an implementation of a [repository](https://github.com/ageitgey/face_recognition) based facial recognition demo.
+this is an implementation of the [ageitgey/face_recognition](https://github.com/ageitgey/face_recognition) repository based facial recognition demo.
 The implementation has a graphic interface where you can register new users, you can also add new users manually by adding a photo in the images folder.
 
 

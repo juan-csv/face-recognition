@@ -1,0 +1,40 @@
+<html lang=”en”>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Identify Test</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+    <div>
+        <p>Face recognition</p>
+    </div>
+    <div>
+        <!-- Camera trigger -->
+        <button id="new_register">New register</button>
+    </div>
+    <!-- Camera -->
+    <div id="data">
+        <!-- Camera view -->
+        <video id="camera--view" autoplay=True></video>
+        <!-- Camera sensor -->
+        <canvas id="camera--sensor"></canvas>
+        <!-- Leer archivo-->
+    </div>
+    <div id="data">
+        <h1 id="saludo"></h1>
+    </div>
+
+
+
+    <!-- Reference to your JavaScript file -->
+    <!-- <script src="/js/app.js"></script> -->
+    <script type=text/javascript src="{{
+        url_for('static', filename='js/app.js') }}"></script>
+</body>
+
+</html>
